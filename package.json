@@ -1,4 +1,12 @@
 {
+  "name": "jenkins-io-new",
+  "version": "0.0.1",
+  "description": "new demo of jenkins.io",
+  "author": {"name": "Mahmoud Galal","email": "ssss.aaa2002@gmail.com"},
+  "scripts": {
+    "dev":"serve build/site",
+    "build": "npx antora --fetch an-playbook.yml"
+  },
   "devDependencies": {
     "@antora/cli": "3.1.2",
     "@antora/site-generator": "3.1.2"
