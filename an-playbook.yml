@@ -1,13 +1,17 @@
 site:
   title: Jenkins-demo
-  start_page: component-b::index.adoc
+  start_page: user-doc::index.adoc
 content:
   sources:
-  - url: https://gitlab.com/antora/demo/demo-component-a.git
-    branches: HEAD
-  - url: https://gitlab.com/antora/demo/demo-component-b.git
-    branches: [v2.0, v1.0]
-    start_path: docs
+  - url: https://github.com/Mahmoudgalalz/Jenkins-doc.git
+    branches: [HEAD,v1.5]
+    version: ['1.0','v1.5']
+asciidoc:
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    page-pagination: ''
 ui:
   bundle:
     url: ./ui
